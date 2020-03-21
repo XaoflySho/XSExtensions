@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension XS where Base: UIScrollView {
+public extension XS where Base: UIScrollView {
     
     var inset: UIEdgeInsets {
         get {
@@ -119,7 +119,7 @@ extension XS where Base: UIScrollView {
     }
 }
 
-extension XS where Base: UIScrollView {
+public extension XS where Base: UIScrollView {
     var totalDataCount: Int {
         var totalCount: Int = 0;
         if let tableView = base as? UITableView {

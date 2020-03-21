@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension XS where Base: UIView {
+public extension XS where Base: UIView {
     var x: CGFloat {
         set {
             var frame = base.frame
