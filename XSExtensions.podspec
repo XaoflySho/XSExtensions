@@ -22,6 +22,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '9.0'
   
   spec.source_files  = "XSExtensions/**/*.swift"
-  spec.resource      = "XSExtensions/**/*.bundle"
 
 end
